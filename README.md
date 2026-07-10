@@ -187,11 +187,13 @@ Some original files contain Colab or local paths. Prefer the clean scripts for r
 ## Citation
 
 ```bibtex
-@misc{SarmientoRosales2026MoNASSRPredictorsDataset,
-  title = {MoNAS-SR-Predictors-Dataset},
-  author = {Sarmiento-Rosales, Sergio},
+@article{SarmientoRosales2026EvolutionaryNAS,
+  title = {Evolutionary Neural Architecture Search for Super-Resolution: Benchmarking SynFlow and model-based predictors},
+  author = {Sarmiento-Rosales, S. and Hernández, V. A. S. and Monroy, R.},
+  journal = {Swarm and Evolutionary Computation},
+  volume = {100},
+  pages = {102236},
   year = {2026},
-  note = {Dataset and framework for predictor-assisted multi-objective NAS in super-resolution. Publication venue and DOI TBD.}
 }
 ```
 

@@ -1,17 +1,27 @@
 cff-version: 1.2.0
-message: "If you use this dataset or code, please cite the repository and update TBD publication metadata when available."
+message: "If you use this dataset or code, please cite the associated journal article."
 title: "MoNAS-SR-Predictors-Dataset"
 type: dataset
 license: "MIT"
 authors:
   - family-names: "Sarmiento-Rosales"
     given-names: "Sergio"
+  - family-names: "Hernández"
+    given-names: "V. A. S."
+  - family-names: "Monroy"
+    given-names: "R."
 repository-code: "https://github.com/SergioSarmientoRosales/MoNAS-SR-Predictors-Dataset"
 preferred-citation:
-  type: generic
-  title: "MoNAS-SR-Predictors-Dataset"
+  type: article
+  title: "Evolutionary Neural Architecture Search for Super-Resolution: Benchmarking SynFlow and model-based predictors"
   authors:
     - family-names: "Sarmiento-Rosales"
-      given-names: "Sergio"
+      given-names: "S."
+    - family-names: "Hernández"
+      given-names: "V. A. S."
+    - family-names: "Monroy"
+      given-names: "R."
   year: 2026
-  notes: "Dataset and framework for predictor-assisted multi-objective NAS in super-resolution. Publication venue and DOI TBD."
+  journal: "Swarm and Evolutionary Computation"
+  volume: "100"
+  notes: "Article 102236."

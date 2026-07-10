@@ -43,7 +43,7 @@ Known or inferred columns include:
 
 ## Generation Process
 
-The repository indicates that architectures were evaluated or estimated using predictor-assisted NAS, zero-cost SynFlow runs, and NSGA-III search scripts. Full generation metadata, training budget, and final publication details are TBD.
+The repository indicates that architectures were evaluated or estimated using predictor-assisted NAS, zero-cost SynFlow runs, and NSGA-III search scripts. Full generation metadata and training budget details remain to be documented for complete reuse.
 
 ## Splits
 
@@ -54,8 +54,8 @@ No canonical split file was found in the original repository. The cleaned pipeli
 - Some legacy scripts contain local or Colab paths.
 - Headerless legacy CSVs require schema assumptions.
 - The clean `synflow_like` example is an interface smoke test, not the true TensorFlow SynFlow computation.
-- DOI, venue, and exact final citation metadata are TBD.
+- The canonical citation is the 2026 Swarm and Evolutionary Computation article listed below and in `CITATION.cff`.
 
 ## Citation
 
-Use the repository citation metadata in `CITATION.cff`. Update TBD fields when publication metadata is available.
+Sarmiento-Rosales, S., Hernández, V. A. S., & Monroy, R. (2026). Evolutionary Neural Architecture Search for Super-Resolution: Benchmarking SynFlow and model-based predictors. Swarm and Evolutionary Computation, 100, 102236.
