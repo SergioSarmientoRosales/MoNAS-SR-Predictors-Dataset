@@ -1,0 +1,3 @@
+# Optional dependencies for reproducing heavier legacy benchmarks.
+xgboost>=1.7
+tensorflow>=2.12

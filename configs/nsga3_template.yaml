@@ -1,0 +1,26 @@
+run_name: nsga3_selection
+input_path: data/full_architecture_dataset.csv
+output_dir: runs
+architecture_id_column: architecture_id
+architecture_column: chromosome
+feature_columns: [params, flops]
+target_columns: [valid_psnr]
+objectives:
+  - column: valid_psnr
+    direction: maximize
+  - column: params
+    direction: minimize
+  - column: flops
+    direction: minimize
+split:
+  train: 0.7
+  validation: 0.15
+  test: 0.15
+seed: 1
+predictors: [extra_trees, svr]
+zero_cost_proxies: [synflow_like]
+nsga3:
+  population_size: 60
+  generations: 50
+  archive_size: 20
+plot: true

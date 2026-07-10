@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "monas-sr-predictors"
+version = "0.1.0"
+description = "Dataset utilities, predictor benchmarks, zero-cost proxies, and multi-objective selection for SR MoNAS."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+  {name = "Sergio Sarmiento-Rosales"}
+]
+dependencies = [
+  "numpy>=1.23",
+  "pandas>=1.5",
+  "scikit-learn>=1.2",
+  "PyYAML>=6.0",
+  "matplotlib>=3.7"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+xgboost = ["xgboost>=1.7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

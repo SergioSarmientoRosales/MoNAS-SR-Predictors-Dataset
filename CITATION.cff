@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite the repository and update TBD publication metadata when available."
+title: "MoNAS-SR-Predictors-Dataset"
+type: dataset
+license: "MIT"
+authors:
+  - family-names: "Sarmiento-Rosales"
+    given-names: "Sergio"
+repository-code: "https://github.com/SergioSarmientoRosales/MoNAS-SR-Predictors-Dataset"
+preferred-citation:
+  type: generic
+  title: "MoNAS-SR-Predictors-Dataset"
+  authors:
+    - family-names: "Sarmiento-Rosales"
+      given-names: "Sergio"
+  year: 2026
+  notes: "Dataset and framework for predictor-assisted multi-objective NAS in super-resolution. Publication venue and DOI TBD."

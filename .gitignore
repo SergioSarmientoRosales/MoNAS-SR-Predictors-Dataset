@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Generated outputs from reproducible scripts
+runs/**
+!runs/
+!runs/README.md
+
+# Local staging data
+data/**
+!data/
+!data/README.md
+
+# Notebook/editor artifacts
+.ipynb_checkpoints/
+.idea/
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Generated model artifacts
+*.joblib
+*.onnx
